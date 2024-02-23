@@ -1,0 +1,126 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+[id] {
+  scroll-margin-top: 56px;
+}
+
+.hero-box {
+  position: relative;
+  height: 180px;
+  background-image: url(../img/hero-big.jpg);
+  background-size: cover;
+  background-position: 0 80%;
+  z-index: 0;
+}
+
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
+.hero-text i {
+  font-size: 42px;
+}
+
+.navbar .navbar-toggler {
+  padding: 8px 18px;
+}
+
+.aboutus .company-logo {
+  height: 175px;
+}
+.aboutus .contact-btn {
+  padding: 10px 40px;
+}
+.aboutus .aboutus-muted-text {
+  font-size: 12px;
+  max-width: 400px;
+}
+.aboutus .carousel-item img {
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.aboutus .carousel-item:before {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+}
+
+.pricing p.icon {
+  font-size: 60px;
+  padding: 16px;
+}
+.pricing .card {
+  width: 80%;
+  transition: scale 0.3s;
+}
+.pricing .card:hover {
+  scale: 1.1;
+}
+.pricing .button {
+  padding: 10px;
+}
+
+.contact .adress-box .adress {
+  height: 100%;
+  max-height: 300px;
+  width: 100%;
+}
+.contact .adress-box .adress .adress-header {
+  font-size: 2.5rem;
+}
+.contact .adress-box .adress .contact-link {
+  text-decoration: none;
+}
+.contact .adress-box .adress span {
+  font-size: 1.2rem;
+}
+.contact .form .text-area {
+  min-height: 100px;
+  max-height: 300px;
+}
+.contact form label {
+  margin: 5px;
+}
+
+@media (min-width: 768px) {
+  .aboutus .carousel-item img {
+    height: 300px;
+  }
+  .hero-box {
+    height: 300px;
+  }
+}
+@media (min-width: 992px) {
+  [id] {
+    scroll-margin-top: 69px;
+  }
+  .aboutus .carousel-item img {
+    height: 350px;
+  }
+}
+@media (min-width: 1400px) {
+  .aboutus .company-logo {
+    height: 230px;
+  }
+}/*# sourceMappingURL=style.css.map */

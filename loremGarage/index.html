@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Garage</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container hero-box d-flex justify-content-center align-items-center">
+            <div class="hero-shadow"></div>
+            <div class="hero-text text-light">
+                <p class="display-4"> <i class="fa-solid fa-wrench text-primary"></i> Lorem <span
+                        class="text-primary">Garage</span></p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container p-0 sticky-top">
+        <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+            <div class="container mx-lg-5">
+                <div></div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav text-uppercase fw-bold nav-fill w-100">
+                        <a class="nav-link active" aria-current="page" href="#">home</a>
+                        <a class="nav-link" href="#aboutus">o firmie</a>
+                        <a class="nav-link" href="#pricing">cennik</a>
+                        <a class="nav-link" href="#contact">kontakt</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <main>
+        <section id="aboutus">
+            <div class="container bg-light text-dark py-4 aboutus">
+                <h3 class="text-uppercase pb-2 pb-md-4 display-5 fw-bold text-center text-dark">o firmie</h3>
+
+
+                <div class="row mb-5">
+                    <div class="col-md-4 mb-3 mb-md-0 d-flex justify-content-center align-items-center">
+                        <img src="./img/logo.png" alt="Logo firmy" class="img-fluid company-logo p3 bg-light">
+                    </div>
+                    <div class="col-md-8 px-4 px-md-3 pe-lg-5 d-flex flex-column justify-content-evenly">
+
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum qui autem
+                            repudiandae
+                            iure
+                            ducimus eum praesentium quos suscipit in architecto sapiente facilis provident ipsam
+                            quis
+                            eaque, nisi quia, consectetur earum!</p>
+                        <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center">
+                            <p class="text-muted aboutus-muted-text">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Rem, placeat vero. Sequi perspiciatis officia quod!</p>
+                            <a href="#contact"><button type="button"
+                                    class="btn btn-outline-secondary contact-btn mx-3 mt-3 mt-sm-0">Kontakt</button></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="py-3">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/carousel/c1-l.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/carousel/c2-l.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/carousel/c3-l.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <div class="container bg-dark text-light py-4 pb-5 py-xxl-5 pricing">
+                <h3 class="text-uppercase pb-2 pb-md-4 mb-4 pb-xxl-5 display-5 fw-bold text-center">Cennik</h3>
+
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
+
+                    <div class="col my-4">
+                        <div class="card h-100 mx-auto mb-4">
+                            <div class="card-body text-center">
+                                <h3 class="card-title text-uppercase fw-bold py-3">olej filtry</h3>
+                                <p class="card-text">Lorem, ipsum dolor.</p>
+                                <p class="border-bottom border-secondary"></p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem amet
+                                    animi impedit, hic non ipsa!</p>
+                                <p class="icon"><i class="fas fa-oil-can"></i></p>
+                                <button type="button"
+                                    class="btn btn-outline-primary text-uppercase fw-bold py-3 px-4">Wybieram</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col my-4">
+                        <div class="card h-100 mx-auto mb-4">
+                            <div class="card-body text-center">
+                                <h3 class="card-title text-uppercase fw-bold py-3">tarcze klocki</h3>
+                                <p class="card-text">Lorem, ipsum dolor.</p>
+                                <p class="border-bottom border-secondary"></p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias
+                                    sapiente commodi, cum ea iste maxime.</p>
+                                <p class="icon"><i class="fas fa-gear"></i></p>
+                                <button type="button"
+                                    class="btn btn-outline-primary text-uppercase fw-bold py-3 px-4">Wybieram</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col my-4">
+                        <div class="card h-100 mx-auto mb-4">
+                            <div class="card-body text-center">
+                                <h3 class="card-title text-uppercase fw-bold py-3">eco fix</h3>
+                                <p class="card-text">Lorem, ipsum dolor.</p>
+                                <p class="border-bottom border-secondary"></p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+                                    dignissimos, beatae deserunt atque repellendus!</p>
+                                <p class="icon"><i class="fas fa-leaf"></i></p>
+                                <button type="button"
+                                    class="btn btn-outline-primary text-uppercase fw-bold py-3 px-4">Wybieram</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="contact">
+            <div class="container bg-light text-dark py-4 px-5 pb-5 py-xxl-5 contact">
+                <h3 class="text-uppercase pb-2 pb-md-4 mb-4 pb-xxl-5 display-5 fw-bold text-center">Kontakt</h3>
+                <div class="d-lg-flex">
+                    <div class="adress-box col-lg-3 border border-dark p-4 m-1 rounded-1">
+                        <div class="adress d-flex justify-content-around align-items-center flex-column text-center">
+                            <p class="text-uppercase fw-bold adress-header">Adres</p>
+                            <p class="d-flex flex-column">
+                                <span>ul. Długa 404</span>
+                                <span>Katowice, 40-000</span>
+                            </p>
+                            <p class="d-flex flex-column">
+                                <span>Tel: <a class="contact-link " href="tel:+123456789">123-456-789</a></span>
+                                <span>E-mail: <a class="contact-link "
+                                        href="mailto:mail@mail.com">mail@mail.com</a></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 border border-dark p-4 m-1 rounded-1 d-none d-md-block">
+                        <form class="form">
+                            <div class="row">
+                                <div class="col-lg-6 mb-3">
+                                    <label for="name-input" class="form-label">Imię i nazwisko</label>
+                                    <input type="text" class="form-control" id="name-input">
+                                </div>
+                                <div class=" col-lg-6 mb-3">
+                                    <label for="email-input" class="form-label">Adres mailowy</label>
+                                    <input type="email" class="form-control" id="email-input">
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="select-input">Temat wiadomości</label>
+                                <select class="form-select" id="select-input">
+                                    <option selected disabled>Wybierz temat z listy</option>
+                                    <option value="1">Pytanie dot. usług</option>
+                                    <option value="2">Wycena indywidualna</option>
+                                    <option value="3">Reklamacje</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="textarea-input">Treść wiadomości</label>
+                                <textarea class="form-control text-area" placeholder="Wpisz treść wiadomości"
+                                    id="textarea-input"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="text-center p-3 m-0"><i class="fa-solid fa-wrench text-primary"></i> Lorem <span
+                class="text-primary">Garage </span>&copy; <span class="year-span"></span> </p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

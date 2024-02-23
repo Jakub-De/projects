@@ -1,0 +1,128 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #333;
+}
+
+.result {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	/* background-color: royalblue; */
+	z-index: 100;
+    transform: translateY(-100%);
+    transition: 0.7s;
+}
+
+.result-show {
+    transform: translateY(0);
+}
+
+.result-info {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    font-size: 5rem;
+}
+
+.play-again-btn {
+    position: absolute;
+    bottom: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 50px 100px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    background: none;
+    background-color: rgb(255, 255, 255, 0.3);
+    border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.play-again-btn:hover {
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+.box {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	top: 50vh;
+	left: 50vw;
+	height: 500px;
+	width: 800px;
+	transform: translate(-50%, -50%);
+	background-color: #aaa;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	box-shadow: 0 0 20px #fff;
+}
+
+.choices {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+}
+
+.your-choice,
+.oponent-choice {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 350px;
+	width: 250px;
+	/* border: 1px solid black; */
+}
+
+.choice-icon {
+	font-size: 8rem;
+	margin: 20px;
+}
+
+.choice-text {
+	font-size: 3.5rem;
+	text-transform: uppercase;
+	/* font-weight: light; */
+}
+
+.vs {
+	font-size: 5rem;
+	font-weight: bold;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	/* border: 1px solid black; */
+}
+
+.btn {
+	font-size: 2.5rem;
+	background: none;
+	border: none;
+	padding: 30px 60px;
+	margin: 0 30px;
+	cursor: pointer;
+	/* background-color: #aaa; */
+	border: 1px solid #888;
+	border-radius: 8px;
+	transition: 0.3s;
+}
+
+.btn:hover {
+	background-color: #888;
+}
